@@ -1,0 +1,94 @@
+/* Pathfinder: Web Creator starter stylesheet.
+   Day 3: change the two colours, check contrast, then switch on the media query. */
+
+:root {
+  --main-colour: #1a2a3a;    /* header background */
+  --accent-colour: #b45f06;  /* buttons and focus outline; passes 4.5:1 on white */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  color: #1a1a1a;
+  background: #ffffff;
+}
+
+header {
+  background: var(--main-colour);
+  color: #ffffff;
+  padding: 16px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+}
+
+/* Flexbox puts the three links in a row with a gap between them */
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+/* Mouse users see this when they hover */
+nav a:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Keyboard users see where they are. Never remove this. */
+a:focus,
+button:focus {
+  outline: 3px solid var(--accent-colour);
+  outline-offset: 2px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background: var(--accent-colour);
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 16px;
+  font-size: 14px;
+  color: #595959;
+  text-align: center;
+}
+
+/* Small screens: stack the nav links.
+   Day 3, Block 2: delete the slash-star line above and the star-slash line below to switch this on. */
+/*
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 4px;
+  }
+}
+*/
