@@ -66,7 +66,7 @@ img {
 
 button {
   background: var(--accent-colour);
-  color: darkolivegreen;
+  color:#1a1a1a(107, 47, 47);
   border: none;
   padding: 10px 16px;
   font-size: 16px;
