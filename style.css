@@ -82,6 +82,18 @@ footer {
   text-align: center;
 }
 
+.menu-item {
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.menu-item h3 {
+    color: brown;
+}
+
 /* Small screens: stack the nav links.
    Day 3, Block 2: delete the slash-star line above and the star-slash line below to switch this on. */
 /*

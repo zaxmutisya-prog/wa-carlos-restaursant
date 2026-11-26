@@ -30,6 +30,8 @@ if (toggleButton) {
 /*
 const items = ["First item", "Second item", "Third item"];
 const list = document.querySelector("#item-list");
+const container = document.getElementById("menu-container");
+
 
 // Only run this on a page that has the list.
 if (list) {
@@ -41,3 +43,24 @@ if (list) {
   console.log("Items shown:", items.length);
 }
 */
+const drinks = menu.filter(item => {
+    return item.category === "Drinks";
+});
+
+console.log(drinks);
+
+menu.forEach(item => {
+    container.innerHTML += `
+        <div class="menu-item">
+            <h3>${item.name}</h3>
+            <p>Category: ${item.category}</p>
+            <p>Price: KSh ${item.price}</p>
+        </div>
+    `;
+});
+
+console.log("Total drinks: " + drinks.length);
+
+if (drinks.length === 0) {
+    container.innerHTML = "No drinks available.";
+}

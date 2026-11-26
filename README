@@ -1,0 +1,31 @@
+# Wa Carlos Restaurant Website
+
+## 1. Introduction
+The Wa Carlos Restaurant Website is a website developed to introduce and provide information about Wa Carlos Restaurant. It allows visitors to learn about the restaurant, explore its menu and check its opening hours.
+
+## 2. Purpose of the Website
+The main purpose of this website is to make it easier for customers to access information about Wa Carlos Restaurant. It also helps promote the restaurant online and allows potential customers to learn more about its services.
+
+## 3. Website Features
+- **Home Page:** Introduces Wa Carlos Restaurant.
+- **Menu Section:** Allows visitors to view the food and drinks offered.
+- **Opening Hours:** Provides information about when the restaurant operates.
+- **Restaurant Images:** Gives visitors a visual experience of the restaurant.
+- **Contact Information:** Helps customers find ways to reach the restaurant.
+
+## 4. Technologies Used
+- HTML5 – Used to structure the website.
+- CSS3 – Used to style and design the website.
+- JavaScript – Used to add interactive features (if implemented).
+
+## 5. How to View the Website
+1. Download or clone the project.
+2. Open the project folder in Visual Studio Code.
+3. Open the `index.html` file.
+4. Run the website using Live Server or open the HTML file in a browser.
+
+## 6. Project Goal
+The goal of this project is to create a simple, attractive and user-friendly website that improves the online presence of Wa Carlos Restaurant and makes restaurant information easily accessible to visitors.
+
+## 7. Developer
+Developed as a web development project.
