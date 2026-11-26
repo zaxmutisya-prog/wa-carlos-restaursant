@@ -11,18 +11,22 @@ let isOpen = false;
 // 3. When the button is clicked, run this function.
 // Only run this on a page that has the button.
 if (toggleButton) {
-  toggleButton.addEventListener("click", function () {
-    if (isOpen) {
-      details.hidden = true;
-      toggleButton.textContent = "Hide opening hours";
-      isOpen = false;
-    } else {
-      details.hidden = false;
-      toggleButton.textContent = "show opening hours";
-      isOpen = true;
-    }
-    console.log("Box open:", isOpen);
-  });
+    toggleButton.addEventListener('click', function () {
+
+        if (isOpen) {
+            details.hidden = true;
+            toggleButton.textContent = "Show opening hours";
+            isOpen = false;
+
+        } else {
+            details.hidden = false;
+            toggleButton.textContent = "Hide opening hours";
+            isOpen = true;
+        }
+
+        console.log("Box open:", isOpen);
+
+    });
 }
 
 // Day 4, Block 2: first add the list section to index.html (the page gives you the HTML),
